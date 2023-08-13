@@ -1,4 +1,4 @@
-resource "aws_instance" "instance1" {
+resource "aws_instance" "instance2module" {
   ami           = "ami-053b0d53c279acc90"
   instance_type = "t3.micro"
   count         = 1
